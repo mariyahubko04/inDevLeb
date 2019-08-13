@@ -1,0 +1,8 @@
+.desired__section {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 3px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=desired.css.map */

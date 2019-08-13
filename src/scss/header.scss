@@ -1,0 +1,129 @@
+.header {
+    & {
+      display: flex;
+    }
+
+    &__title {
+      text-transform: uppercase;
+      white-space: nowrap;
+      font-weight: 700;
+      font-size: 6px;
+    }
+
+    &__title::before {
+      content:"";
+      background-image: url(image/to-do_list.png);
+      background-size: 6px 6px;
+      width: 6px;
+      height: 6px;
+      margin-left: -10px;
+      margin-top: 1px;
+      position: absolute;
+      opacity: 0.4;
+    }
+
+    &__order {
+      display: flex;
+      background-color: white;
+      border: 1px solid whitesmoke;
+      padding: 7px;
+      padding-left: 15px;
+    }
+
+    &__top {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+    }
+
+    &__section-order {
+      display: flex;
+    }
+
+    &__section-order--item {
+      display: grid;
+      grid-row-gap: 5px;
+      align-items: center;
+      align-content: center;
+      white-space: nowrap;
+      margin-right: 12px;
+      color: #c3d1e4;
+    }
+
+    &__section-order--info {
+      display: block;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #6e7690;
+    }
+
+    &__button {
+      display: grid;
+      grid-row-gap: 6px;
+      align-items: center;
+      align-content: center;
+      margin-left: 8px;
+    }
+
+    &__button--place {
+      text-transform: uppercase;
+      background-color: #f7f7fa;
+      color: #c3d1e4;
+      border-color: #c3d1e4;
+      width: 55px;
+      padding: 5px 4px;
+      margin-right: 2px;
+      white-space: nowrap;
+      font-size: 4px;
+      font-weight: 700px;
+    }
+
+    &__button--place.btn-primary:not(:disabled):not(.disabled).active {
+      background-color: #56bdb9;
+      border-color: #5ecbc7;
+      color: #fff;
+    }
+
+    &__button--place.btn-primary:hover,
+    &__button--place.btn-primary:not(:disabled):not(.disabled).active:hover {
+      background-color: #209793;
+      border-color: #1ba39f;
+      color: #fff;
+    }
+
+    &__info {
+      display: grid;
+      grid-row-gap: 5px;
+      align-items: center;
+      align-content: center;
+      padding: 3px 10px 0 20px;
+      border: 1px solid whitesmoke;
+      border-left: none;
+      text-align: justify;
+    }
+
+    &__info p {
+      color: #cfd0d3;
+    }
+
+    &__info--title {
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    &__info--title::before {
+      content:"";
+      background-image: url(image/help.jpg);
+      background-size: 6px 6px;
+      width: 6px;
+      height: 6px;
+      margin-left: -11px;
+      position: absolute;
+      opacity: 0.6;
+    }
+
+    &__info--contacts {
+      display: flex;
+      justify-content: space-between;
+    }
+}

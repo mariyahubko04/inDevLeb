@@ -1,0 +1,154 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__title {
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-weight: 700;
+  font-size: 6px;
+}
+
+.header__title::before {
+  content: "";
+  background-image: url(/image/to-do_list.png);
+  background-size: 6px 6px;
+  width: 6px;
+  height: 6px;
+  margin-left: -10px;
+  margin-top: 1px;
+  position: absolute;
+  opacity: 0.4;
+}
+
+.header__order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  border: 1px solid whitesmoke;
+  padding: 7px;
+  padding-left: 15px;
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.header__section-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__section-order--item {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  white-space: nowrap;
+  margin-right: 12px;
+  color: #c3d1e4;
+}
+
+.header__section-order--info {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #6e7690;
+}
+
+.header__button {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 6px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-left: 8px;
+}
+
+.header__button--place {
+  text-transform: uppercase;
+  background-color: #f7f7fa;
+  color: #c3d1e4;
+  border-color: #c3d1e4;
+  width: 55px;
+  padding: 5px 4px;
+  margin-right: 2px;
+  white-space: nowrap;
+  font-size: 4px;
+  font-weight: 700px;
+}
+
+.header__button--place.btn-primary:not(:disabled):not(.disabled).active {
+  background-color: #56bdb9;
+  border-color: #5ecbc7;
+  color: #fff;
+}
+
+.header__button--place.btn-primary:hover, .header__button--place.btn-primary:not(:disabled):not(.disabled).active:hover {
+  background-color: #209793;
+  border-color: #1ba39f;
+  color: #fff;
+}
+
+.header__info {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 3px 10px 0 20px;
+  border: 1px solid whitesmoke;
+  border-left: none;
+  text-align: justify;
+}
+
+.header__info p {
+  color: #cfd0d3;
+}
+
+.header__info--title {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header__info--title::before {
+  content: "";
+  background-image: url(/image/help.jpg);
+  background-size: 6px 6px;
+  width: 6px;
+  height: 6px;
+  margin-left: -11px;
+  position: absolute;
+  opacity: 0.6;
+}
+
+.header__info--contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=header.css.map */

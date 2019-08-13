@@ -1,0 +1,37 @@
+@import "./scss/header.css";
+@import "./scss/main.css";
+@import "./scss/desired.css";
+@import "./scss//signForm.css";
+@import "./scss/wrapper.css";
+
+* {
+  font-family: Roboto;
+  font-size: 4px;
+  outline: none;
+}
+
+html {
+  background: #cacaca;
+}
+
+  body {
+  margin: auto;
+  background: #fff;
+  width: 320px;
+  color: #6e7690;
+}
+
+header {
+  background: #cacaca;
+  height: 100%;
+  width: 100%;
+}
+
+header img {
+  display: block;
+  background: #cacaca;
+  height: 30px;
+  width: 30px;
+  opacity: 0.2;
+  margin: 10px auto;
+}

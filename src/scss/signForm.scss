@@ -1,0 +1,102 @@
+.main__sign {
+  &--form {
+    margin-left: 25px;
+  }
+
+  & legend {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 6px;
+  }
+
+  & legend a {
+    color: inherit;
+    font-size: 5px;
+    margin-left: 3px;
+    text-decoration: underline;
+  }
+
+  &--form input {
+    padding: 6px 4px;
+    border: 0.5px solid rgb(207, 205, 205);
+  }
+
+  &--form &--user-section input:not(:placeholder-shown):valid {
+    background: url(image/check-mark.svg) no-repeat 95% center / 5px;
+  }
+
+  &--form &--user-section input:not(:placeholder-shown):invalid {
+    background: url(image/close.svg) no-repeat 95% center / 5px;
+  }
+}
+
+.form-check-input {
+  margin: -1px -15px;
+  height: 8px;
+}
+
+#number_card {
+  background: url(image/visa.svg) no-repeat 95% center / 10px;
+  width: 70px;
+  margin: 0;
+}
+
+.form-check-text a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.form-check-text {
+  margin-right: 15px;
+  text-transform: none;
+}
+
+.main__sign--form input {
+  margin-right: 7px;
+}
+
+.main__sign--form .form-group__btn .form-check-label label {
+  text-transform: none;
+  width: 20px;
+}
+
+.form-group {
+  & {
+    margin-bottom: 7px;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__btn button {
+    margin: 10px 3px;
+    padding: 4px 7px;
+  }
+}
+
+.btn-primary {
+  background-color: #56bdb9;
+  border-color: #5ecbc7;
+  color: #fff;
+}
+
+.name {
+  display: grid;
+  grid-template-columns: 0.2fr;
+  grid-column-gap: 5px;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr;
+  grid-column-gap: 5px;
+}
+
+.visa {
+  display: grid;
+  grid-template-columns: 0.3fr 0.2fr 0.1fr;
+  grid-column-gap: 5px;
+}

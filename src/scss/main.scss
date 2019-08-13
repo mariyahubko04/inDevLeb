@@ -1,0 +1,264 @@
+.main {
+  & {
+    margin: 0px 10px;
+  }
+
+  &__title {
+    border-bottom: 1px solid rgb(231, 228, 228);
+    text-transform: uppercase;
+    font-size: 7px;
+    font-family: Roboto;
+    width: 145px;
+    text-align: justify;
+    text-align-last: justify;
+    padding-bottom: 3px;
+    margin: 25px auto 15px;
+    font-weight: 400px;
+  }
+
+  &__select {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-bottom: 25px;
+  }
+
+  &__select input {
+    display: fixed;
+    opacity: 0;
+  }
+
+  & &__select label {
+    height: 50px;
+    padding-top: 50px;
+    background: #f7f7fa url('./image/document.png') no-repeat center 30% / 40%;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  & &__select label:first-of-type {
+    background: #f7f7fa url('image/web-page.png') no-repeat center 30% / 40%;
+  }
+
+  & &__select label:last-of-type {
+    background: #f7f7fa url('image/document.png') no-repeat center 30% / 40%;
+  }
+
+  &__label {
+    padding: 15px 30px;
+    border: 1px solid #d7d9e0;
+    border-radius: 2px;
+  }
+
+  &__label.sm {
+    padding: 7px 12px;
+    width: 70px;
+    text-align: center;
+    background-color: #f7f7fa
+  }
+
+  &__select--name {
+    position: absolute;
+    display: block;
+    top: 150px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #6e7690
+  }
+
+  &__select img {
+    position: relative;
+    width: 60px;
+    height: 50px;
+    border: 1px solid #e1e5eb;
+    padding: 10px 15px;
+    background-color: whitesmoke;
+    margin-right: 10px;
+  }
+
+  &__select a {
+    text-decoration: none;
+  }
+
+  &__upload {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__upload--number {
+    display: inline-block;
+    border: 1px solid #6e7690;
+    text-align: center;
+    border-radius: 50%;
+    padding: 4px 6px;
+    margin-right: 7px;
+    font-weight: 700;
+    font-size: 6px;
+  }
+
+  &__upload--info-format {
+    display: block;
+    margin-left: 5px;
+    font-size: 3px;
+    color: #c3d1e4;
+    padding-top: 6px;
+  }
+
+  &__upload--tbl {
+    width: 80%;
+    color: #808285;
+    border: 0.5px solid #d2d4d6;
+    margin: 10px 25px 15px;
+    border-spacing: 16px;
+  }
+
+  &__upload--tbl td {
+    padding: 4px;
+  }
+
+  &__upload--btn {
+    margin-top: 6px;
+    margin-left: 25px;
+    background-color: whitesmoke;
+  }
+
+  & .btn-file {
+    position: relative;
+    overflow: hidden;
+    padding: 6px 5px;
+    border: 0.5px solid #c5c6c7;
+    border-radius: 1px;
+    color: #808285;
+  }
+
+  .btn-file input[type=file],
+  .btn-file input[type="radio"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: pointer;
+    display: block;
+  }
+
+  .fas {
+    margin-right: 5px;
+  }
+
+  .fa-list-alt {
+    margin-right: 5px;
+  }
+
+  &__nav-lang {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  &__nav-lang-section {
+    margin-bottom: 5px;
+  }
+
+  &__nav-lang-input {
+    width: 59px;
+    padding: 3px 2px;
+    color: #6e7690;
+    background-color: whitesmoke;
+    border: 0.5px solid #c5c6c7;
+    border-radius: 1px;
+  }
+
+  &__nav-lang-text {
+    display: block;
+    text-align: end;
+    font-weight: 700;
+  }
+
+  &__nav-lang-section {
+    display: grid;
+    grid-template-columns: 15px 100px;
+    grid-column-gap: 5px;
+    align-items: center;
+  }
+
+  &__desired {
+    display: grid;
+    grid-template-columns: 70px;
+    grid-row-gap: 5px;
+    margin-left: 25px;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  &__desired input {
+    display: fixed;
+    opacity: 0;
+  }
+
+  &__desired--btn {
+    background-color: whitesmoke;
+    position: relative;
+  }
+
+  & .selected::after {
+    content: "";
+    background-image: url(/image/check-mark.svg);
+    background-size: 6px 6px;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  &__tone-with-urgent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__sign {
+    margin: 10px 0px;
+  }
+
+  &__sign label {
+    text-transform: uppercase;
+  }
+
+  &__form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-row {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+input[type=radio] {
+  display: none;
+}
+
+input[type=radio]:checked+label {
+  border: 1px solid #76a7e1;
+  position: relative;
+}
+
+input[type=radio]:checked+label::after {
+  content: "";
+  background-image: url(/image/check-mark.svg);
+  background-size: 8px 8px;
+  background-color: #fff;
+  width: 8px;
+  height: 8px;
+  top: -4px;
+  right: -4px;
+  border-radius: 50%;
+  position: absolute;
+}

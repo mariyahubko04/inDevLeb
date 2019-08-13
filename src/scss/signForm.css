@@ -1,0 +1,111 @@
+.main__sign--form {
+  margin-left: 25px;
+}
+
+.main__sign legend {
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 6px;
+}
+
+.main__sign legend a {
+  color: inherit;
+  font-size: 5px;
+  margin-left: 3px;
+  text-decoration: underline;
+}
+
+.main__sign--form input {
+  padding: 6px 4px;
+  border: 0.5px solid #cfcdcd;
+}
+
+.main__sign--form .main__sign--user-section input:not(:placeholder-shown):valid {
+  background: url(image/check-mark.svg) no-repeat 95% center/5px;
+}
+
+.main__sign--form .main__sign--user-section input:not(:placeholder-shown):invalid {
+  background: url(image/close.svg) no-repeat 95% center/5px;
+}
+
+.form-check-input {
+  margin: -1px -15px;
+  height: 8px;
+}
+
+#number_card {
+  background: url(image/visa.svg) no-repeat 95% center/10px;
+  width: 70px;
+  margin: 0;
+}
+
+.form-check-text a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.form-check-text {
+  margin-right: 15px;
+  text-transform: none;
+}
+
+.main__sign--form input {
+  margin-right: 7px;
+}
+
+.main__sign--form .form-group__btn .form-check-label label {
+  text-transform: none;
+  width: 20px;
+}
+
+.form-group {
+  margin-bottom: 7px;
+}
+
+.form-group__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-group__btn button {
+  margin: 10px 3px;
+  padding: 4px 7px;
+}
+
+.btn-primary {
+  background-color: #56bdb9;
+  border-color: #5ecbc7;
+  color: #fff;
+}
+
+.name {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.2fr;
+      grid-template-columns: 0.2fr;
+  grid-column-gap: 5px;
+}
+
+.user {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.2fr 0.2fr;
+      grid-template-columns: 0.2fr 0.2fr;
+  grid-column-gap: 5px;
+}
+
+.visa {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.3fr 0.2fr 0.1fr;
+      grid-template-columns: 0.3fr 0.2fr 0.1fr;
+  grid-column-gap: 5px;
+}
+/*# sourceMappingURL=signForm.css.map */

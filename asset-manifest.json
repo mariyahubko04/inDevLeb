@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/inDevLeb/static/css/main.a98543ec.chunk.css",
+    "main.js": "/inDevLeb/static/js/main.b9502ad3.chunk.js",
+    "main.js.map": "/inDevLeb/static/js/main.b9502ad3.chunk.js.map",
+    "runtime~main.js": "/inDevLeb/static/js/runtime~main.54237057.js",
+    "runtime~main.js.map": "/inDevLeb/static/js/runtime~main.54237057.js.map",
+    "static/js/2.9d746a3c.chunk.js": "/inDevLeb/static/js/2.9d746a3c.chunk.js",
+    "static/js/2.9d746a3c.chunk.js.map": "/inDevLeb/static/js/2.9d746a3c.chunk.js.map",
+    "index.html": "/inDevLeb/index.html",
+    "precache-manifest.cc6d4056f7c387781b766429b837bd26.js": "/inDevLeb/precache-manifest.cc6d4056f7c387781b766429b837bd26.js",
+    "service-worker.js": "/inDevLeb/service-worker.js",
+    "static/css/main.a98543ec.chunk.css.map": "/inDevLeb/static/css/main.a98543ec.chunk.css.map",
+    "static/media/App.css": "/inDevLeb/static/media/visa.feb0d737.svg"
+  }
+}

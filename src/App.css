@@ -14,24 +14,24 @@ html {
   background: #cacaca;
 }
 
-  body {
+ body {
+  width: 320px;
   margin: auto;
   background: #fff;
-  width: 320px;
   color: #6e7690;
 }
 
 header {
-  background: #cacaca;
   height: 100%;
   width: 100%;
+  background: #cacaca;
 }
 
 header img {
   display: block;
-  background: #cacaca;
   height: 30px;
   width: 30px;
+  background: #cacaca;
   opacity: 0.2;
   margin: 10px auto;
 }
